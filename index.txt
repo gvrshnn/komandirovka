@@ -1,0 +1,55 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Командировка</title>
+  <link rel="stylesheet" href="styles.css"> ЭТО ССЫЛКА НА КЛАССЫ CSS ЗАДАННЫЕ В ОТДЕЛЬНОМ ФАЙЛЕ И ПРИКРЕПЛЕННЫЕ К HTML С ПОМОЩЬЮ ССЫЛКИ
+</head>
+
+ВСЁ ЧТО ВЫШЕ ЭТО СТАНДАРТНЫЙ СНИППЕТ ЧЕРЕЗ !+TAB В CODE PEN
+
+<body>
+
+  <div class="container"> СОЗДАЕТСЯ КОНТЕЙНЕР ДЛЯ ВСЕГО СОДЕРЖИМОГО ДЛЯ КОТОРОГО В ФАЙЛЕ CSS ПРОПИСЫВАЕТСЯ ЧТО ОН ОТОБРАЖАЕТСЯ КАК СЕТКА DISPLAY:GRID
+
+    <div class="item title_1">КОМАНДИРОВКА</div> ДЛЯ ЯЧЕЕК КОНТЕЙНЕРА ЗАДАЮТСЯ ВЛОЖЕННЫЕ КЛАССЫ С ПОМОЩЬЮ СЕЛЕКТОРА ПОТОМКОВ ЧЕРЕЗ ПРОБЕЛ ТО ЕСТЬ ЕСТЬ РОДИТЕЛЬСКИЙ КЛАСС ITEM И ПОДЧИНЕННЫЕ ЕМУ TITLE_1 И ТД. 
+
+    <div class="item image_1">
+    <img src="01.jpg" class="img_header"> ДЛЯ КАРТИНОК ЗАДАЕТСЯ ОТДЕЛЬНЫЙ КЛАСС ДЛЯ ТОГО ЧТОБЫ СДЕЛАТЬ ИХ АДАПТИВНЫМИ В CSS
+    </div>
+
+    <div class="item title_2">ЗАГОЛОВОК СОЮЗ МС 25</div>
+
+    <div class="item text_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, possimus maxime? Recusandae quisquam culpa unde ad neque dolorem tenetur alias. Perferendis sint impedit ducimus obcaecati voluptas consequuntur quam sit id.
+    Quibusdam consectetur repellat similique voluptatem distinctio exercitationem aliquam dolore accusantium qui harum nostrum maxime sit laudantium adipisci optio temporibus odit consequuntur, modi culpa libero perferendis minima totam? Quaerat, nulla? Quos?
+    Possimus eius officiis nulla sit animi perspiciatis voluptatum omnis facilis a sapiente repellat reprehenderit ducimus officia, quisquam eos ipsa non aut porro. Esse, animi. Fuga ut perspiciatis a repellat fugiat?</div>
+
+    <div class="item title_3">ЗАГОЛОВОК ПОДГОТОВКА</div>
+
+    <div class="item image_3">
+    <img src="01.jpg" class="img">
+    </div>
+
+    <div class="item text_3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ipsam nulla culpa debitis eum consequatur soluta quibusdam non doloremque blanditiis inventore illum excepturi earum, aperiam tempora laboriosam sapiente odit rem.
+    Ut quaerat nam fugiat quas ipsa, eius eaque. Nisi consequatur aliquid aperiam nemo cumque accusantium. Culpa, aliquid corporis iure ratione assumenda nulla a ex quam similique modi at, obcaecati aliquam!
+    Neque asperiores eaque illo. Quia voluptatum quaerat ducimus eos quae cum temporibus recusandae voluptas, est, aliquid illo rem dolor voluptatibus? Doloribus modi ut nostrum dolorem tempora fugit, vitae distinctio sit?</div>
+
+    <div class="item title_4">ЗАГОЛОВОК БЫТ</div>
+
+    <div class="item image_4">
+    <img src="01.jpg" class="img">
+    </div>
+
+    <div class="item text_4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quae recusandae illo natus tenetur ad perspiciatis laudantium nemo, possimus voluptates ex ipsum quidem unde adipisci id, suscipit esse sequi ipsam?
+    Aliquid unde enim aperiam culpa, tenetur sapiente illum impedit dolorum necessitatibus doloribus aut cupiditate voluptatem perferendis adipisci ut atque minima, laudantium illo cumque dolor. Labore explicabo nemo consequuntur amet inventore?
+    Enim eligendi praesentium cupiditate reiciendis facere adipisci dolorum expedita officia? Nulla ea placeat aspernatur labore, eaque nemo dolorem architecto illum nihil sed expedita eveniet ullam quo pariatur voluptatum rem sequi.</div>
+
+
+    <div class="item footer">ФУТЕР</div>
+
+  </div>
+
+
+</body>
+</html>
